@@ -5,6 +5,7 @@
 - Email: maritsaz@gmail.com  
 - GitHub: https://github.com/MaritsaZ
 - Discord: Mari (@MaritsaZ)
+- Tel: +00 00 00 00
 
 ---
 
