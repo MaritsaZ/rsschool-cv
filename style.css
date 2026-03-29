@@ -9,31 +9,30 @@ body {
   background-color: #edebeb;
 }
 
-/* Центрирование */
+
 main {
   max-width: 900px;
-  margin: 0 auto; /* центрирование main, так как он является основным контейнером для контента */
+  margin: 0 auto; 
   background: white;
-  padding: 20px 40px 20px 40px; /* добавляем отступ справа для лучшего вида */
+  padding: 20px 40px 20px 40px; 
 }
 
-/* Header */
+
 header {
   max-width: 900px;
-  margin: 0 auto; /* центрирование header, так как он не является частью main */
+  margin: 0 auto; 
   background: #ce3648c6;
   color: white;
   text-align: center;
   padding: 20px;
 }
 
-/* Navigation */
 nav ul {
-  display: flex; /* горизонтальное расположение пунктов меню */
-  justify-content: center;/* центрирование пунктов меню */
-  list-style: none;/* убираем маркеры списка */
-  gap: 20px;/* расстояние между пунктами меню */
-  margin-top: 10px; /* отступ сверху для навигации */
+  display: flex; 
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+  margin-top: 10px; 
 }
 
 nav a {
@@ -44,7 +43,7 @@ nav a {
 a {
   color: #60a5fa;
 }
-/* Sections */
+
 section {
   margin-bottom: 20px;
 }
@@ -54,34 +53,32 @@ h2 {
   color: #1b1b1c;
 }
 
-/* Avatar */
 .avatar {
   width: 150px;
-  height: 150px;       /* теперь делаем квадрат, чтобы круг был ровным */
-  object-fit: cover;   /* обрезает изображение по размеру, чтобы не искажалось */
+  height: 150px;      
+  object-fit: cover;   
   display: block;
   margin-bottom: 10px;
-  border-radius: 50%;  /* делает круг */
+  border-radius: 50%;  
   border: 3px solid #ae5097;
   
 }
 
-/* Code block */
+
 pre {
-  display: inline-block;   /* ширина по содержимому */
+  display: inline-block;   
   background: #485872f8;
   color: rgb(169, 204, 223);
-  padding: 10px;/* отступы внутри блока кода */
+  padding: 10px;
 }
 
-/* Footer */
 footer {
-  display: flex;/* горизонтальное расположение элементов в футере */
-  justify-content: space-between;/* распределение элементов по краям */
-  max-width: 900px;/* ширина футера, совпадает с шириной main */
-  margin: 0 auto;/* центрирование футера */
-  text-align: center;/* выравнивание текста по центру */
-  padding: 15px;/* отступы внутри блока footer */
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px;
   background: #485872f8;
   color: rgb(188, 191, 193);
 }
