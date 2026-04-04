@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #edebeb;
+}
+
+
+main {
+  max-width: 900px;
+  margin: 0 auto; 
+  background: white;
+  padding: 20px 40px 20px 40px; 
+}
+
+
+header {
+  max-width: 900px;
+  margin: 0 auto; 
+  background: #ce3648c6;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex; 
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+  margin-top: 10px; 
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  color: #60a5fa;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #1b1b1c;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;      
+  object-fit: cover;   
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 50%;  
+  border: 3px solid #ae5097;
+  
+}
+
+
+pre {
+  display: inline-block;   
+  background: #485872f8;
+  color: rgb(169, 204, 223);
+  padding: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px;
+  background: #485872f8;
+  color: rgb(188, 191, 193);
+}
+
+.logors {
+  width: 50px;
+  height: auto; 
+}
+.logogit {
+  width: 70px;
+  height: auto; 
+}
